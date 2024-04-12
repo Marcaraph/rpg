@@ -11,8 +11,8 @@ class Monk extends Character {
       if (this.hp > this.maxHp) {
         this.hp = this.maxHp;
       }
-      this.mana -= 25;
-      console.log(`${this.name} the ${this.constructor.name} heals herself for ${this.maxHp - this.hp} hp.`);
+      this.mana -= 30;
+      console.log(`${this.name} the ${this.constructor.name} heals himself for ${this.maxHp - this.hp} hp.`);
     } else {
       console.log("Not enough mana !");
     }
